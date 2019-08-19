@@ -1,0 +1,233 @@
+/******************************************
+*  Author : Author   
+*  Created On : Fri Aug 09 2019
+*  File : pStyle.css
+*******************************************/
+
+html {
+  margin: 0x;
+  padding: 0px;
+}
+
+body {
+  font-family: "Handlee", cursive;
+  font-size: 13pt;
+  background-color: #e7e2e2;
+  padding: 10px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 15pt;
+  color: maroon;
+  text-align: center;
+  padding: 18px 0px 18px 0px;
+  margin: 0px 0px 10px 0px;
+}
+
+h1 span {
+  border: 3px dashed maroon;
+  padding: 10px;
+}
+
+.section {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 15px;
+}
+
+.article {
+  background-color: rgba(250, 239, 224, 0.8);
+  padding: 60px;
+  margin: 20px 200px 20px 200px;
+  border-radius: 15px;
+}
+
+#header {
+  background-image: url(GFX/banner/1.png);
+  background-size: cover;
+}
+
+#header img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.avatar {
+  border: 5px solid #ffffff;
+  border-radius: /*5px 20px 5px*/ 50%;
+}
+
+#header p {
+  font-size: 25pt;
+  color: #3b464c;
+  padding-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  list-style: none;
+  justify-content: center;
+  margin: 15px 0 15px 0;
+}
+
+nav a {
+  margin-right: 20px;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+nav a:hover{
+    background-color: #BEB62F;
+    color: #fff;
+}
+
+@media all and (max-width: 800px) {
+  nav {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 500px) {
+  nav {
+    justify-content: column;
+  }
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+table.wschedule,
+table.wschedule td,
+table.wschedule th {
+  border: 2px solid #cecece;
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+  height: 24px;
+  width: 45%;
+}
+
+.worktime {
+  background-color: #f36f48;
+  font-weight: bold;
+  color: white;
+}
+
+.breaktime {
+  background-color: cornflowerblue;
+  font-weight: bold;
+  color: white;
+}
+
+table.wschedule {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+pro {
+  align-content: center;
+}
+
+progress {
+  width: 35%;
+  height: 20px;
+  background: #efefef;
+}
+
+progress::-webkit-progress-bar {
+  background: #efefef;
+}
+
+progress::-webkit-progress-value {
+  background: #3fb6b2;
+}
+
+progress::-moz-progress-bar {
+  color: #3fb6b2;
+  background: #efefef;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  width: 200px;
+  color: #999999;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+
+textarea {
+  width: 400px;
+  height: 150px;
+  max-width: 400px;
+  line-height: 18px;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  border-color: 1px solid #c9c9c9;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+
+.form label {
+  margin-left: 10px;
+  color: #999999;
+}
+
+.submit input {
+  width: 100px;
+  height: 40px;
+  background-color: #474e69;
+  color: #fff;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.submit input:hover{
+    background-color: #3a4058; 
+}
+
+.form {
+    /*text-align: center;
+    padding: 5px 0 0 0;*/
+    text-align: center;
+}
+
+form div {
+    padding-top: 10px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+form label {
+    flex: 1;
+    text-align: left;
+}
+
+
+.copyright{
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
